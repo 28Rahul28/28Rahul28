@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    text-align: left; margin: 5rem 10rem;
+}
+h1 {
+    margin-bottom: 2rem;
+
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+}
+a {
+    margin: 0 30px ;
+    font-weight: bolder;
+    color: #b8f9e2;
+}
+.topnav {
+    background-color: #131515;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #FFFAFB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #11d48f;
+  }
+
+  li{
+      margin: 20px;
+      list-style-type: none;
+      background-color: #7DE2D1;
+      display: inline-block;
+      padding: 0 25px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: bolder;
+      line-height: 50px;
+      border-radius: 15px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 1rem;
+    font-family: arial;
+    display: inline-block;
+  }
+  .detail {
+    background-color: #333533;
+    padding: 1rem;
+    color: #E8EDDF;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #339989;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
